@@ -1,0 +1,30 @@
+.btn {
+    padding: 0px, 20px, 0px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    color: var(--color-white);
+    background-color: var(--color-grey-200);
+
+    &:hover{
+        background-color: var(--color-primary);
+    }
+
+    &:focus{
+        background-color: var(--color-primary);
+    }
+
+    &.medium {
+        width: 106px;
+        height: 40px;
+        top: 133px;
+        left: 20px;
+        border: 2px
+    }
+
+    &.large {
+        width: 454px;
+        height: 60px;
+        top: 595px;
+        left: 572px;
+    }
+}

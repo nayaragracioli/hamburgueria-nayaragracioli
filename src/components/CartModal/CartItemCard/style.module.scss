@@ -1,0 +1,24 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+
+    &>div {
+        display: flex;
+        align-items: center;
+        gap: 20.74px;
+
+        &>img {
+            width: 82.259px;
+            height: 80px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: var(--color-grey-100);
+            margin: 14px 0px 14px 14px;
+            object-fit: cover;
+        }
+    }
+
+    &>button{
+        margin-right: 19.69px;
+    }
+}

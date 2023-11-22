@@ -1,0 +1,35 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+
+    width: 450px;
+    margin: 28px 20px 178px 16px;
+    gap: 20px;
+
+    overflow-x: scroll;
+}
+
+@media(min-width: 768px) {
+    .flexbox {
+        width: 839px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .flexbox {
+        flex-wrap: wrap;
+        width: 939px;
+
+        margin: 28px 20px 178px 153px;
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width: 1440px) {
+    .flexbox {
+        width: 83%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 28px 127px 178px 118px;
+    }
+}
